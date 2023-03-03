@@ -1,0 +1,191 @@
+[
+  {
+    "id": 1,
+    "title": "Responsive design with Bootstrap",
+    "author": "Silvio Moreto",
+    "description": "Responsive design with Bootstrap is a web design approach that allows web pages to adapt to the size of the user's device. It uses a combination of HTML, CSS, and JavaScript to create a website that can be viewed on any device, regardless of its size or orientation.Bootstrap is an open-source framework for creating responsive websites. It provides a set of tools and components that make it easy to create responsive designs. Bootstrap includes HTML and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions. It also provides support for various devices such as tablets and smartphones.Using Bootstrap makes it easier to create responsive designs because it provides pre-built components that can be used in any project. This means developers don't have to start from scratch when creating a website; they can simply use the components provided by Bootstrap and customize them according to their needs. Additionally, Bootstrap also provides tools for testing how the website looks on different devices so developers can ensure their designs are optimized for all types of devices.Responsive design with Bootstrap is becoming increasingly popular due to its ease of use and flexibility. It allows developers to quickly create websites that look great on any device without having to spend time coding from scratch or worrying about compatibility issues across different devices. Additionally, it helps ensure that users have a consistent experience regardless of which device they are using.",
+    "category": "UX",
+    "image":"https://freepdf-books.com/doc-images/14373.png",
+    "price": 75
+  },
+  {
+    "id": 2,
+    "title": "HTML - an introduction",
+    "author": "TN Chhabra",
+    "image":"https://www.urbanbae.com/media/uploads/products/h/d5ddf3cbe817a0eb30bb43e3c3e5262a.jpeg",
+    "description": "HTML stands for HyperText Markup Language and is the standard markup language used to create web pages. HTML is used to structure a web page and its content, including text, images, links, and other media. It is written in the form of HTML elements consisting of tags enclosed in angle brackets. HTML is the foundation of all web pages. It describes and defines the content of a webpage along with the basic layout of the page. Without HTML, a browser would not know how to display text as elements or load images or other elements. HTML also provides a basic structure of the page that can be enhanced and modified with CSS (Cascading Style Sheets) to change its appearance and layout. HTML consists of a series of elements that are used to describe different parts of a webpage such as headings, paragraphs, lists, links, images, tables etc. Each element has an opening tag (<>) and a closing tag (</>) which contains attributes that define its properties such as color, size etc. The content between these tags is what makes up the actual content on the page. HTML also provides support for multimedia such as audio and video which can be embedded into webpages using special tags such as <audio> or <video>. This allows users to view multimedia content directly from within their browser without having to download it first. HTML also supports scripting languages such as JavaScript which can be used to add interactive features to webpages such as menus, forms etc. This allows developers to create dynamic websites with user interaction capabilities without having to write complex code from scratch. Overall HTML is an essential part of creating websites and web applications today and it will continue to be so in the future as well.",
+    "category": "HTML",
+    "price": 130
+  },
+{
+    "id": 3,
+    "title": "CSS - an introduction",
+    "author": "Michael Macaulay",
+    "description": "CSS stands for Cascading Style Sheets. It is a language used to describe the look and formatting of a web page written in HTML or other markup language. CSS is used to define the layout, colors, fonts, and other visual elements of a website. CSS is an essential part of modern web development as it allows developers to create websites that are visually appealing and easy to use. CSS can be used to control the layout of multiple web pages all at once, making it easier for developers to maintain a consistent look and feel across an entire website. It also allows developers to create responsive designs that adapt to different screen sizes and devices. CSS is composed of rules that tell the browser how to display HTML elements on the page. These rules are written in a special syntax called “selectors” which allow developers to target specific elements on the page and apply styles accordingly. For example, you can use selectors to change the font size or color of all headings on a page, or you can target specific elements such as buttons or images and apply unique styles just for them. CSS also provides powerful tools for creating animations and transitions between different states of an element on the page. This allows developers to create dynamic user interfaces that respond quickly and smoothly when interacted with by users. Overall, CSS is an incredibly powerful tool for creating beautiful websites with great user experiences. It’s easy to learn but takes time and practice to master, so don’t be discouraged if you don’t get it right away!",
+    "image":"https://images.routledge.com/common/jackets/crclarge/978113891/9781138911857.jpg",
+    "category": "CSS",
+    "price": 107
+  },
+{
+    "id": 4,
+    "title": "JavaScript - an introduction",
+    "author": "Marijn Haverbeke",
+    "description": "JavaScript is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm. Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production; the majority of websites employ it and it is supported by all modern web browsers without plug-ins. JavaScript enables interactive web pages and thus is an essential part of web applications. The vast majority of websites use it for client-side page behavior, and all major web browsers have a dedicated JavaScript engine to execute it. As a multi-paradigm language, JavaScript supports event-driven, functional, and imperative (including object-oriented and prototype-based) programming styles. It has an API for working with text, arrays, dates, regular expressions, and basic manipulation of the DOM, but the language itself does not include any I/O such as networking, storage or graphics facilities. It relies upon the host environment in which it is embedded to provide these features. JavaScript has become one of the most popular programming languages on the web. It is used to enhance HTML pages and is commonly found embedded in HTML code. Every major web browser has a dedicated JavaScript engine that executes the code on the user's device. This makes it an ideal choice for creating dynamic websites that respond to user input without having to reload the page each time. Additionally, many popular libraries such as jQuery have been built on top of JavaScript to make development easier and faster for developers who are familiar with its syntax.",
+    "image":"https://learning.oreilly.com/library/cover/9781593272821/250w/",
+    "category": "JavaScript",
+    "price": 185
+  },
+{
+    "id": 5,
+    "title": "HTML and CSS: Design and Build Websites",
+    "author": "Jon Duckett",
+    "image":"https://m.media-amazon.com/images/I/41WznOEKmAL._SX396_BO1,204,203,200_.jpg",
+    "description": "A full-color introduction to the basics of HTML and CSS! Every day, more and more people want to learn some HTML and CSS. Joining the professional web designers and programmers are new audiences who need to know a little bit of code at work (update a content management system or e-commerce store) and those who want to make their personal blogs more attractive. Many books teaching HTML and CSS are dry and only written for those who want to become programmers, which is why this book takes an entirely new approach. Introduces HTML and CSS in a way that makes them accessible to everyone—hobbyists, students, and professionals—and it’s full-color throughout Utilizes information graphics and lifestyle photography to explain the topics in a simple way that is engaging Boasts a unique structure that allows you to progress through the chapters from beginning to end or just dip into topics of particular interest at your leisure This educational book is one that you will enjoy picking up, reading, then referring back to.",
+    "category": "HTML",
+    "price": 58
+  },
+{
+    "id": 5,
+    "title": "HTML5: The Missing Manual",
+    "author": "Matthew Macdonald",
+    "image":"https://m.media-amazon.com/images/I/41+JBaY+kHL._SX379_BO1,204,203,200_.jpg",
+    "description": "HTML5 is more than a markup language—it’s a collection of several independent web standards. Fortunately, this expanded guide covers everything you need in one convenient place. With step-by-step tutorials and real-world examples, HTML5: The Missing Manual shows you how to build web apps that include video tools, dynamic graphics, geolocation, offline features, and responsive layouts for mobile devices.",
+    "category": "HTML",
+    "price": 24
+  },
+{
+    "id": 6,
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford",
+    "image":"https://m.media-amazon.com/images/I/5131OWtQRaL._SX381_BO1,204,203,200_.jpg",
+    "description": "Most programming languages contain good and bad parts, but JavaScript has more than its share of the bad, having been developed and released in a hurry before it could be refined. This authoritative book scrapes away these bad features to reveal a subset of JavaScript that's more reliable, readable, and maintainable than the language as a whole—a subset you can use to create truly extensible and efficient code.",
+    "category": "JavaScript",
+    "price": 13
+  },
+{
+    "id": 7,
+    "title": "JavaScript and jQuery: Interactive Front-End Web Development",
+    "author": "Jon Duckett",
+    "image":"https://m.media-amazon.com/images/I/41y31M-zcgL._SX400_BO1,204,203,200_.jpg",
+    "description": "In JavaScript and jQuery: Interactive Front-End Development, best-selling author Jon Duckett delivers a fully illustrated guide to making your websites more interactive and your interfaces more interesting and intuitive. In the book, you’ll explore basic programming concepts that assume no prior knowledge of programming beyond an ability to create a web page using HTML & CSS.",
+    "category": "JavaScript",
+    "price": 48
+  },
+{
+    "id": 8,
+    "title": "JavaScript from Beginner to Professional",
+    "author": "Laurence Lars Svekis",
+    "image":"https://m.media-amazon.com/images/I/51YB0gZp+aL._SX404_BO1,204,203,200_.jpg",
+    "description": "Start your journey towards becoming a JavaScript developer with the help of more than 100 fun exercises and projects.",
+    "category": "JavaScript",
+    "price": 20
+  },
+{
+    "id": 9,
+    "title": "Designing and Prototyping Interfaces with Figma",
+    "author": "Fabio Staiano",
+    "image":"https://m.media-amazon.com/images/I/41XvwYmWsQL._SX404_BO1,204,203,200_.jpg",
+    "description": "Discover user experience and user interface design best practices while mastering a wide array of tools across Figma and FigJam with this full-color guide",
+    "category": "UX",
+    "price": 29
+  },
+{
+    "id": 10,
+    "title": "Laws of UX",
+    "author": "Jon Yablonski",
+    "image":"https://m.media-amazon.com/images/I/410ZGx1mcUL._SX331_BO1,204,203,200_.jpg",
+    "description": "An understanding of psychology—specifically the psychology behind how users behave and interact with digital interfaces—is perhaps the single most valuable nondesign skill a designer can have. The most elegant design can fail if it forces users to conform to the design rather than working within the blueprint of how humans perceive and process the world around them.",
+    "category": "UX",
+    "price": 24
+  },
+{
+    "id": 11,
+    "title": "101 UX Principles: Actionable Solutions for Product Design Success, 2nd Edition",
+    "author": "Will Grant",
+    "image":"https://m.media-amazon.com/images/I/41nrV9ygwlL._SX331_BO1,204,203,200_.jpg",
+    "description": "Improve user experience by avoiding common frustrations and focusing on what matters",
+    "category": "UX",
+    "price": 150
+  },
+{
+    "id": 12,
+    "title": "UX/UI Designer Notebook",
+    "author": "Scripto Love Press",
+    "image":"https://m.media-amazon.com/images/I/41xhsHqTR-L._SX384_BO1,204,203,200_.jpg",
+    "description": "UX/UI Design for Mobile, Tablet, and Desktop - Sketchpad - User Interface - Experience App Development - Sketchbook ",
+    "category": "UX",
+    "price": 8
+  },
+{
+    "id": 13,
+    "title": "JavaScript: The Definitive Guid",
+    "author": "David Flanagan",
+    "image":"https://m.media-amazon.com/images/I/51hx91tbZeL._SX379_BO1,204,203,200_.jpg",
+    "description": "avaScript is the programming language of the web and is used by more software developers today than any other programming language. For nearly 25 years this best seller has been the go-to guide for JavaScript programmers. The seventh edition is fully updated to cover the 2020 version of JavaScript, and new chapters cover classes, modules, iterators, generators, Promises, async/await, and metaprogramming. You’ll find illuminating and engaging example code throughout.",
+    "category": "JavaScript",
+    "price": 36
+  },
+{
+    "id": 14,
+    "title": "CSS: The Definitive Guide: Visual Presentation for the Web",
+    "author": "Eric Meyer",
+    "image":"https://m.media-amazon.com/images/I/51M8IlpmzPL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+    "description": "If you’re a web designer or app developer interested in sophisticated page styling, improved accessibility, and saving time and effort, this book is for you. This revised edition provides a comprehensive guide to CSS implementation, along with a thorough review of the latest CSS specifications.",
+    "category": "CSS",
+    "price": 44
+  },
+{
+    "id": 15,
+    "title": "CSS Pocket Reference: Visual Presentation for the Web - 5th edition",
+    "author": "Eric Meyer",
+    "image":"https://m.media-amazon.com/images/I/51neKLqqFOL._SX302_BO1,204,203,200_.jpg",
+    "description": "When youâ??re working with CSS and need an answer now, this concise yet comprehensive quick reference provides the essential information you need. Revised and updated for CSS3, this fifth edition is ideal for intermediate to advanced web designers and developers.",
+    "category": "CSS",
+    "price": 14
+  },
+{
+    "id": 16,
+    "title": "Cascading Style Sheets (Quick Study Computer)",
+    "author": "Inc. BarCharts ",
+    "image":"https://m.media-amazon.com/images/I/51LiWopeuVL._SY496_BO1,204,203,200_.jpg",
+    "description": "This is a great tool for someone looking to make Cascading Style Sheets easier to use.Includes information on:types of CSS rules, parts of CSS rules, stacking objects, browser standards, changing the cursors, debugging code",
+    "category": "CSS",
+    "price": 6
+  },
+{
+    "id": 17,
+    "title": "Cascading Style Sheet – designing for the Web",
+    "author": "Håkon Wium Lie & Bert Bos",
+    "image":"https://www.w3.org/Style/LieBos3e/LieBos3e-small2.png",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "category": "CSS",
+    "price": 28
+  },
+{
+    "id": 18,
+    "title": "HTML and CSS QuickStart Guide",
+    "author": "David DuRocher",
+    "image":"https://m.media-amazon.com/images/I/51hNyFwD6CL._SX404_BO1,204,203,200_.jpg",
+    "description": "Every one of the over 4 billion webpages online today use HTML markup language to display its content. HTML is everywhere. Experienced developers know that a mastery of HTML and CSS fundamentals is not only an essential web design skill, but also the solid foundation of a robust coding skillset. In HTML & CSS QuickStart Guide author, instructor, and 10+ year Fortune 500 tech company veteran David DuRocher breaks down HTML5 and CSS3 fundamentals manageable, practical, and engaging segments designed for first-time developers.",
+    "category": "HTML",
+    "price": 35
+  },
+{
+    "id": 19,
+    "title": "HTML5 Pocket Reference",
+    "author": "Jennifer Robbins",
+    "image":"https://m.media-amazon.com/images/I/41mJiRghcdL._SX302_BO1,204,203,200_.jpg",
+    "description": "Need help finding the right HTML5 element or attribute for your web page or application? HTML5 Pocket Reference is the classic reference that web designers and developers have been keeping close at hand for more than thirteen years. This fifth edition has been updated to reflect the current state of HTML5, including the HTML5 Candidate Recommendation, the emerging HTML5.1 Working Draft, and the living WHATWG standard. Features",
+    "category": "HTML",
+    "price": 15
+  },
+{
+    "id": 20,
+    "title": "HTML in easy steps",
+    "author": "Mike McGrath",
+    "image":"https://m.media-amazon.com/images/I/51Y9yDoKNCL._SX408_BO1,204,203,200_.jpg",
+    "description": "HTML in easy steps, 9th edition instructs you how to employ the latest development for web page design with HyperText Markup Language (HTML). Modern web browsers support exciting features of the HTML standard that allows easy creation of stunning web pages and engaging interactive apps.",
+    "category": "HTML",
+    "price": 12
+  }
+]
