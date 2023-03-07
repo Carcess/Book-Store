@@ -1,30 +1,37 @@
 body {
     background-color: #fff6f6
 }
+
 h1 {
     text-align: center;
 }
+
 h4 {
     font-size: 16px;
     font-weight: 700;
 }
+
 header {
     padding: 10px 0 0 0;
     background: white;
     text-align: center;
 }
-#logo{
-    height:75px;
+
+#logo {
+    height: 75px;
 }
-#img-cart{
+
+#img-cart {
     margin-top: 30px;
-    
+
 }
+
 @media (min-width: 750px) {
     header {
         text-align: left;
     }
 }
+
 .remove {
     background-color: red;
     border-radius: 50%;
@@ -37,26 +44,30 @@ header {
 ul {
     list-style: none;
 }
+
 #hero {
-    background-image:url(../img/hero.jpg);
+    background-image: url(../img/hero.jpg);
     height: 320px;
     background-size: cover;
 }
+
 #heading {
     margin: 30px 0;
 }
+
 .submenu {
     position: relative;
 }
 
-.submenu #shopping-cart{
+.submenu #shopping-cart {
     display: none;
 }
-.submenu:hover #shopping-cart{
+
+.submenu:hover #shopping-cart {
     display: block;
     position: absolute;
-    right:0;
-    top:100%;
+    right: 0;
+    top: 100%;
     z-index: 1;
     background-color: white;
     padding: 20px;
@@ -68,18 +79,21 @@ ul {
     margin-top: 80px;
     color: white;
 }
+
 .hero-content form {
     position: relative;
     margin-bottom: 0;
 }
+
 .hero-content form #search-course {
     height: 50px;
     margin-bottom: 0;
 }
+
 .hero-content form .submit-search-course {
     position: absolute;
-    right:0;
-    top:0;
+    right: 0;
+    top: 0;
     height: 100%;
     padding: 0;
     display: block;
@@ -88,23 +102,29 @@ ul {
     background-image: url(../img/mglass.png);
     background-position: right center;
     background-repeat: no-repeat;
-    border:none;
+    border: none;
 }
 
 
 .main-bar {
     padding: 20px 0;
-   background: #E4840B; /* Old browsers */
-   background: -moz-linear-gradient(left, #E4840B 0%, #6E8AC4 100%); /* FF3.6-15 */
-   background: -webkit-linear-gradient(left, #E4840B 0%,#6E8AC4 100%); /* Chrome10-25,Safari5.1-6 */
-   background: linear-gradient(to right, #E4840B 0%,#6E8AC4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', endColorstr='#e44e52',GradientType=1 ); /* IE6-9 */
+    background: #E4840B;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #E4840B 0%, #6E8AC4 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #E4840B 0%, #6E8AC4 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #E4840B 0%, #6E8AC4 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#741d51', endColorstr='#e44e52', GradientType=1);
+    /* IE6-9 */
 }
 
 .main-bar p {
-    margin:0;
+    margin: 0;
     color: white;
 }
+
 .icon {
     background-repeat: no-repeat;
     background-position: left center;
@@ -113,9 +133,10 @@ ul {
     margin-bottom: 40px;
     text-align: center;
 }
+
 @media (min-width: 750px) {
     .icon {
-        margin-bottom:0;
+        margin-bottom: 0;
     }
 }
 
@@ -124,52 +145,148 @@ ul {
 .icon1 {
     background-image: url(../img/icon1.png);
 }
+
 .icon2 {
     background-image: url(../img/icon2.png);
 }
+
 .icon3 {
     background-image: url(../img/icon3.png);
 }
 
 #courses-list .row {
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
+
 .add-to-cart {
-    margin:10px 0;
+    margin: 10px 0;
 }
+
 .card {
     text-align: center;
     border: 1px solid #e1e1e1;
     background: white;
 }
+
 @media (min-width: 550px) {
     .card {
         text-align: left;
     }
 }
-.info-card  {
+
+.info-card {
     padding: 10px 20px;
 }
+
 .info-card p,
 .card h4 {
     margin-bottom: 5px;
 }
+
 .info-card .price {
     text-decoration: line-through;
     font-size: 18px;
     margin-top: 10px;
 }
+
 .info-card .price span {
     font-weight: 700;
     font-size: 22px;
 }
+
 .footer {
     margin-top: 40px;
-    border-top:1px solid #aaa;;
+    border-top: 1px solid #aaa;
+    ;
     padding-top: 40px;
 }
-.footer .menu a{
-display: block;
-margin-bottom: 10px;
-text-decoration: none;
+
+.footer .menu a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.filterDiv {
+    float: left;
+    background-color: #2196F3;
+    color: #ffffff;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+    /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+/* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+    background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+    background-color: #666;
+    color: white;
+}
+
+#booksRend {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+
+
+}
+
+.ratings i {
+    font-size: 16px;
+    color: red
+}
+
+.strike-text {
+    color: red;
+    text-decoration: line-through
+}
+
+.product-image {
+    width: 100%
+}
+
+.dot {
+    height: 7px;
+    width: 7px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 3px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block
+}
+
+.spec-1 {
+    color: #938787;
+    font-size: 15px
+}
+
+h5 {
+    font-weight: 400
+}
+
+.para {
+    font-size: 16px
 }
