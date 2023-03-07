@@ -1,107 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Book Store</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="assets/css/normalize.css"> -->
     <link rel="stylesheet" href="assets/css/skeleton.css">
     <link rel="stylesheet" href="assets/css/custom.css">
 </head>
+
 <body>
-<header id="header" class="header">
-    <div class="container">
-        <div >
-            <div class="four columns">
-                <img src="assets/img/logo.png" id="logo">
-            </div>
-            <div class="two columns u-pull-right">
-                <ul>
-                    <li class="submenu">
-                            <img src="assets/img/cart.png" id="img-cart">
-                            <div id="shopping-cart">
+    <div id="bodyItem">
+        <header id="header" class="header shadow">
+            <div class="container">
+                <div>
+                    <div class="four columns">
+                        <a href="/"><img src="assets/img/logo.png" id="logo"></a>
+                    </div>
+                    <div class="two columns u-pull-right">
+                        <ul>
+                            <li class="submenu">
+                                <img src="assets/img/cart.png" id="img-cart">
+                                <div id="shopping-cart">
+                                  
                                     <table id="cart-content" class="u-full-width">
                                         <thead>
                                             <tr>
                                                 <th>Image</th>
                                                 <th>Name</th>
+                                                <th>Qty</th>
                                                 <th>Price</th>
-                                                <th></th>
+                                                <th>Total</th>
                                             </tr>
                                         </thead>
-                                        <tbody></tbody>
+                                        <tbody id="tbody">
+
+                                        </tbody>
                                     </table>
-
-                                    <a href="#" id="clear-cart" class="button u-full-width">Clear Cart</a>
-                            </div>
-                    </li>
-                </ul>
+                                    <div class="d-flex justify-content-end m-2">
+                                    Cart items:
+                                    <span id="count">0</span>, Total Price:
+                                    <b>$<span id="sum">0</span></b>
+                                </div>
+                                    <a href="#" id="clear-cart" onclick="clearCart()" class="button u-full-width">Clear Cart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    </header>
+        </header>
 
 
-    <div id="hero">
-        <div class="container">
-            <div class="row">
+        <div id="hero">
+            <div class="container">
+                <div class="row">
                     <div class="six columns">
                         <div class="hero-content">
-                                <h2>Learn Something Today</h2>
-                                <p>Collection of Frontend Development Books, starting from $5 </p>
-                              
+                            <h2>Learn Something Today</h2>
+                            <p>Collection of Frontend Development Books, starting from $5 </p>
+
                         </div>
                     </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="main-bar">
-        <div class="container">
-            <div class="row">
+        <div class="main-bar">
+            <div class="container">
+                <div class="row">
                     <div class="four columns icon icon1">
                         <p>20 Best Choosen Books <br>
-                        Learn new skills</p>
+                            Learn new skills</p>
                     </div>
                     <div class="four columns icon icon2">
                         <p>Expert Authors<br>
-                        Learn with different teach styles</p>
+                            Learn with different teach styles</p>
                     </div>
                     <div class="four columns icon icon3">
                         <p>Lifetime access <br>
-                        learn at your own pace</p>
+                            learn at your own pace</p>
                     </div>
+                </div>
             </div>
+
         </div>
 
-    </div>
-    <div id="courses-list" class="container">
-        <div  class="text-center py-4" id="myBtnContainer"  >
-            <!-- <button class="btn button-primary active" onclick="filterSelection('all')"> Show all</button> -->
-            <button class="btn button-primary"  onclick="filterSelection('UX')"> UX </button>
-            <button class="btn button-primary" onclick="filterSelection('HTML')">HTML</button>
-            <button class="btn button-primary" onclick="filterSelection('CSS')">CSS</button>
-            <button class="btn button-primary" onclick="filterSelection('JavaScript')">JavaScript</button>
-          </div>
 
-          <div  id="booksRend"></div>
-
-         
-
-    </div>
-
-    <footer id="footer" class="footer">
-        <div class="container">
-            <div class="row text-center">
-                
-                <div class="container"><p class="m-0 text-center">Copyright &copy; Book Store 2023</p></div>
+        <div id="courses-list" class="container">
+            <div class="text-center py-4" id="myBtnContainer">
+                <!-- <button class="btn button-primary active" onclick="filterSelection('all')"> Show all</button> -->
+                <button class="btn button-primary" onclick="filterSelection('UX')"> UX </button>
+                <button class="btn button-primary" onclick="filterSelection('HTML')">HTML</button>
+                <button class="btn button-primary" onclick="filterSelection('CSS')">CSS</button>
+                <button class="btn button-primary" onclick="filterSelection('JavaScript')">JavaScript</button>
             </div>
-        </div>
-    </footer>
 
-    <script  src="assets/js/app.js"></script>
+            <div id="booksRend"></div>
+
+
+
+
+
+        </div>
+
+
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="row text-center">
+
+                    <div class="container">
+                        <p class="m-0 text-center">Copyright &copy; Book Store 2023</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <div id="book_container">
+        <header id="header" class="header shadow">
+            <div class="container">
+                <div>
+                    <div class="four columns">
+                        <a href="/"><img src="assets/img/logo.png" id="logo"></a>
+                    </div>
+                 
+                </div>
+            </div>
+        </header>
+
+        <div id="bookBody" class="py-5"></div>
+
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="row text-center">
+
+                    <div class="container">
+                        <p class="m-0 text-center">Copyright &copy; Book Store 2023</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script src="assets/js/app.js"></script>
 
 </body>
+
 </html>
